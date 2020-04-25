@@ -1,0 +1,31 @@
+body{
+	margin: 0px;
+}
+body{
+	background-image: url("header.jpg");
+	background-size: cover;
+}
+.center-text{
+	text-align: center;
+	color: #ececec;
+	margin-top: 5em;
+	text-transform: uppercase;
+}
+.button-large{
+	display: flex;
+	justify-content: center;
+	margin-top: 20em;
+	
+}
+
+.btn-primary{
+		background-color: #F05F44;
+		border-color: #fcfefe;
+		border-radius: 300px;
+		transition: all 0.5s;
+}
+.btn-primary:hover{
+	background-color: #dd2c00;
+		transform: scale(1.1);
+	
+}
